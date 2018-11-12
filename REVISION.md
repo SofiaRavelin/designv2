@@ -3,4 +3,6 @@ Revision History
 =================================
 
 
-v 1.0. * (2018-10-30)
+v 1.0.0 * (2018-10-30)
+
+* Adding revision history and license.
