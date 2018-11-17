@@ -7,7 +7,7 @@ return [
     "id" => "rm-menu",
     "wrapper" => null,
     "class" => "rm-default rm-mobile",
- 
+
     // Here comes the menu items
     "items" => [
         [
@@ -47,6 +47,11 @@ return [
         [
             "text" => "Verktyg",
             "url" => "verktyg",
+            "title" => "Verktyg och möjligheter för utveckling.",
+        ],
+        [
+            "text" => "Test",
+            "url" => "test",
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
     ],
