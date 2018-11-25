@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Me-Sidan"
 views:
     mumin:
         region: sidebar-right
