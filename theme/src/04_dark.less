@@ -1,0 +1,48 @@
+/*!
+ * Stylesheet for design 04_dark.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS and a dark color theme.
+ */
+
+@import "kmom04.less";
+@import "layout/vgrid_dark04.less";
+
+@backgroundColor: #333;
+@textColor: #2ecc40;
+@fontFamilyHeadings: monospace;
+@fontFamilyBody: monospace;
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+    color: @textColor;
+    background-color: @backgroundColor;
+}
+
+.inner-wrap {
+    background-color: @backgroundColor;
+}
+
+.region-flash {
+    display: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 18px;

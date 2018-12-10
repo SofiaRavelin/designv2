@@ -1,0 +1,49 @@
+/*!
+ * Stylesheet for design 04_colorful.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS and a colorful theme.
+ */
+
+@import "kmom04.less";
+
+@backgroundColor: #ffeead;
+@textColor: #4169e1;
+@bgColorHtml: #ffcc5c;
+@fontFamilyHeadings: barrio;
+@fontFamilyBody: barrio regular;
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+.outer-wrap-header,
+.inner-wrap-header {
+    background-color: #ff6f69;
+}
+
+
+.region-flash {
+    display: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+.outer-wrap-main {
+    background-color: @backgroundColor;
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+    color: @textColor;
+    background-color: #ffcc5c;
+}

@@ -1,0 +1,54 @@
+/*!
+ * Stylesheet for design 04_minimalistic.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS and a minimalistic theme.
+ */
+
+@import "kmom04.less";
+@import "layout/vgrid_minimalistic04.less";
+
+@backgroundColor: #fff;
+@textColor: #black;
+@fontFamilyHeadings: "Times New Roman", Times, serif;
+@fontFamilyBody: "Times New Roman", Times, serif;
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+.outer-wrap-header,
+.inner-wrap-header {
+    background-color: #dcdcdc;
+}
+
+
+.region-flash {
+    display: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: red;
+}
+
+.outer-wrap-main {
+    background-color: @backgroundColor;
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+    color: #fff;
+    background-color: #333;
+}
+
+// Magic number and base fontsize
+@magicNumber:  22px;  // 24px
+@fontSizeBody: 16px;

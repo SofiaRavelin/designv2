@@ -51,7 +51,12 @@ return [
         [
             "text" => "Test",
             "url" => "test",
-            "title" => "Verktyg och möjligheter för utveckling.",
+            "title" => "Menytest.",
+        ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapportskrivning.",
         ],
     ],
 ];
